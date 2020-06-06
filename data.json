@@ -1,17 +1,17 @@
 {
-  "brands": [
-  "redmi",
-  "oneplus",
-  "realme",
-   "generic",
-    "honor",
-    "kanget",
-    "mi",
-    "mivi",
-    "oppo",
-    "vivo",
-    "oraimo",
-    "itel",
-    "tecno",
-  ]
+   "brands":[
+      "redmi",
+      "oneplus",
+      "realme",
+      "generic",
+      "honor",
+      "kanget",
+      "mi",
+      "mivi",
+      "oppo",
+      "vivo",
+      "oraimo",
+      "itel",
+      "tecno"
+   ]
 }
