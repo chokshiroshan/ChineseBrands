@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chinese Product Detector</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="home">
+      <img class="logo" src="images/logo.png" />
+      <p class="home_head">CHINESE PRODUCT DETECTOR</p>
+      <div class="social_links">
+        <a href="https://www.twitter.com/roshanchokshi" target="_blank"
+          ><img src="images/twitter.png" alt=""
+        /></a>
+        &nbsp;
+        <a href="https://www.linkedin.com/in/roshan-c-937112138" target="_blank"
+          ><img src="images/linkedin.png" alt=""
+        /></a>
+        &nbsp;
+        <a href="https://www.instagram.com/roshan.py" target="_blank"
+          ><img src="images/instagram.png" alt=""
+        /></a>
+        &nbsp;
+        <a href="https://www.github.com/chokshiroshan" target="_blank"
+          ><img src="images/github.png" alt=""
+        /></a>
+        &nbsp;
+      </div>
+      <!-- <div> -->
+      <p class="made">
+        Made in
+        <img class="vector" src="images/india.svg" alt="" /> &nbsp;with
+        <img class="vector" src="images/heart.png" alt="" />
+      </p>
+    </div>
+    <div class="rect" id="chinese">
+      <div class="tick_container" style="background: #ff5555;">
+        <img class="tick" src="images/cancel.svg" />
+      </div>
+      <p class="head">
+        This is a chinese product.
+      </p>
+      <p class="text">
+        Did we make any mistake in examining the product?
+      </p>
+      <a id="report_button_wrong">
+        <div class="button red" id="declines">
+          <p class="button_text" style="color: #ff5555;">
+            Yes, I will report!
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="rect" id="notchinese">
+      <div class="tick_container" style="background: #586ffa;">
+        <img class="tick" src="images/tick.svg" />
+      </div>
+      <p class="head">
+        This is a not chinese product.
+      </p>
+      <p class="text">
+        Did we make any mistake in examining the product?
+      </p>
+      <a id="report_button_right">
+        <div class="button blue" id="recommends">
+          <p class="button_text" style="color: #586ffa;">
+            Yes, I will report!
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="rect" id="reported">
+      <div class="tick_container" style="background: #25b93e;">
+        <img class="tick" src="images/tick.svg" />
+      </div>
+      <p class="head">
+        This is a not chinese product.
+      </p>
+      <p class="text">
+        Did we make any mistake in examining the product?
+      </p>
+      <div class="button" style="background: #cefdd7;">
+        <p class="button_text" style="color: #25b93e; width: 84px; left: 7px;">
+          Thanks for reporting!
+        </p>
+      </div>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

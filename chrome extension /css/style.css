@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#chinese {
+  display: none;
+}
+
+#notchinese {
+  display: none;
+}
+
+#reported {
+  display: none;
+}
+
+.red {
+  background: #ffdada;
+}
+
+.red:hover {
+  background: #f57676;
+}
+
+.blue {
+  background: #e5e9ff;
+}
+
+.blue:hover {
+  background: #7092bd;
+}
+
+div#home {
+  width: 388.36px;
+  height: 151px;
+
+  background: #f7f8ff;
+}
+
+img.logo {
+  position: absolute;
+  width: 155px;
+  height: 119px;
+  left: 16px;
+  top: 16px;
+}
+
+p.home_head {
+  position: absolute;
+  width: 181.36px;
+  height: 50px;
+  left: 191px;
+  top: 20px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 128.19%;
+  /* or 23px */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+div.social_links {
+  position: absolute;
+  width: 166px;
+  height: 22px;
+  left: 196px;
+  top: 82px;
+}
+
+p.made {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 196px;
+  top: 117px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 18px;
+  /* identical to box height, or 225% */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+img.vector {
+  /* margin-top: 10px; */
+  vertical-align: middle;
+}
+
+div.rect {
+  width: 284px;
+  height: 168px;
+  background: #f7f8ff;
+  /* border-radius: 10px; */
+}
+
+div.tick_container {
+  position: absolute;
+  width: 56.5px;
+  height: 56.5px;
+  left: 20px;
+  top: 20px;
+  /* background: #ff5555; */
+  border-radius: 15px;
+}
+
+img.tick {
+  position: absolute;
+  left: 23.8%;
+  right: 77.82%;
+  top: 23.64%;
+  bottom: 62.5%;
+
+  /* background: #f7f8ff; */
+}
+
+p.head {
+  position: absolute;
+  width: 168px;
+  height: 46px;
+  left: 100px;
+  top: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+p.text {
+  position: absolute;
+  width: 157px;
+  height: 36px;
+  left: 100px;
+  top: 74px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+div.button {
+  position: absolute;
+  width: 97px;
+  height: 24px;
+  left: 102px;
+  top: 124px;
+
+  /* background: #ffdada; */
+  border-radius: 5px;
+}
+
+p.button_text {
+  position: absolute;
+  width: 75px;
+  height: 18px;
+  left: 15px;
+  top: 3px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 18px;
+  /* identical to box height, or 225% */
+
+  letter-spacing: 0.05em;
+
+  /* color: #ff5555; */
+}

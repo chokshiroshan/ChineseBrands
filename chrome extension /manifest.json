@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chinese Product Detector",
+  "description": "A simple extension to detect chinese products on amazon",
+  "version": "1.0",
+  "author": "@chokshiroshan",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "images/icon-128.png",
+    "default_popup": "popup.html"
+  }
+}
